@@ -1,59 +1,22 @@
-## Introduction
+You can fix an element's background image so other content scrolls in front of it.
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+This is achieved in CSS by adding the `background-attachment: fixed` property to the element's selector.
 
-### What you will make
+Here is an example:
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
-
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
-
---- collapse ---
+--- code ---
 ---
-title: What you will need
----
-### Hardware
-
-+ A computer or tablet capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
+language: css
+filename:
+line_numbers: true
+line_number_start: 1
+line_highlights: 4
 ---
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
+.garden {
+  background-image: url("garden.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+}
 
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+--- /code ---
