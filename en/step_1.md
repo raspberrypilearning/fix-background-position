@@ -21,4 +21,4 @@ line_highlights: 4
 
 --- /code ---
 
-![A gif showing a fixed background image as other content scrolls in front of it](images/background-attachment-fixed.gif)
+![A gif showing a fixed background image as other content scrolls in front of it.](images/background-attachment-fixed.gif)
