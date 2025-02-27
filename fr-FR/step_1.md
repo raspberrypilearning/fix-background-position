@@ -1,8 +1,8 @@
-You can fix an element's background image so other content scrolls in front of it.
+Tu peux fixer l'image d'arrière-plan d'un élément, de sorte que d'autres contenus défilent devant lui.
 
-This is achieved in CSS by adding the `background-attachment: fixed` property to the element's selector.
+Ceci est réalisé en CSS en ajoutant la propriété `background-attachment: fixed` au sélecteur de l'élément.
 
-Here is an example:
+Voici un exemple :
 
 ## --- code ---
 
@@ -21,4 +21,4 @@ background-attachment: fixed;
 
 \--- /code ---
 
-![A gif showing a fixed background image as other content scrolls in front of it.](images/background-attachment-fixed.gif)
+![Un gif montrant une image d'arrière-plan fixe tandis qu'un autre contenu défile devant lui.](images/background-attachment-fixed.gif)
