@@ -1,8 +1,8 @@
-You can fix an element's background image so other content scrolls in front of it.
+Je kunt de achtergrondafbeelding van een element zo instellen dat andere content ervoor scrolt.
 
-This is achieved in CSS by adding the `background-attachment: fixed` property to the element's selector.
+Dit doe je in CSS door het toevoegen van de eigenschap 'background-attachment: fixed' aan de selector van het element.
 
-Here is an example:
+Hier is een voorbeeld:
 
 ## --- code ---
 
@@ -21,4 +21,4 @@ background-attachment: fixed;
 
 \--- /code ---
 
-![A gif showing a fixed background image as other content scrolls in front of it.](images/background-attachment-fixed.gif)
+![Een gif die een vaste achtergrondafbeelding laat zien terwijl andere inhoud ervoor scrolt.](images/background-attachment-fixed.gif)
